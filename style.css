@@ -1,0 +1,107 @@
+body {
+    background-color: #E0F0FF;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 30px 123px;
+}
+
+h1, h2 {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 2px solid #f4f4f4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px auto;
+}
+
+img {
+    margin: 20px auto;
+    object-fit: cover;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px 0;
+}
+
+.container {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 960px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column {
+    padding: 20px;
+    flex: 1;
+    min-width: 300px;
+}
+
+.connect .socials {
+    display: flex;
+    justify-content: center;
+}
+
+.connect .socials li {
+    margin: 10px;
+}
+
+.projects-background {
+    background-image: url('images/projects.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.connect-background {
+    background-image: url('images/connect.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+    
+    .column,
+    .column > .container {
+        flex-basis: 100%;
+        padding: 0;
+        margin-top: 0;
+    }
+}
+
+  
