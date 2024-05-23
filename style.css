@@ -78,14 +78,14 @@ li {
 }
 
 .projects-background {
-    background-image: url('images/projects.jpg');
+    background-image: url('projects.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .connect-background {
-    background-image: url('images/connect.jpg'); 
+    background-image: url('connect.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
